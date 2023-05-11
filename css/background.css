@@ -1,0 +1,24 @@
+.bgcolor p {
+    background-color: rgb(247, 239, 230);
+    height: 50px;
+    width: 50%;
+}
+p{
+    color: black;
+}
+.bgimage {
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg);
+    height: 400px;
+    background-position: ;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/*Comentario
+*/
+
+body {
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-abstrato-aquarela-de-inverno-azul_23-2149147677.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+}
