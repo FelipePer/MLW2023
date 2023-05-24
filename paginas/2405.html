@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         /* asterisco altera tudo*/
+        * {
+
+        }
+        .divs {
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+                                                      /*inline-block Vai deixar em linha, o inline sozinho vai 
+                                                        deixar apenas o tamanho do conteudo*/
+            margin-left: 0px;
+            padding: 0px;
+            float: left;
+                                          /* Float tag para manipular elemento, tirando ele do fluxo,
+                                                        float: left = vai deixar todo o conteudo para a esquerda sem borda e margem*/
+        }
+        #div1 {
+            background-color: blue;
+            margin: 0px;
+            padding: 0px;
+            border: 0px solid black;
+            border-width: 1;           /*chama shortrange os 3 border, widht, style e color*/
+            border-style: dashed;
+            border-color: blue;
+        }
+        #div2 {
+            background-color: brown;
+            margin: 0px;
+            padding: 0px;
+             /* position fixed vai ficar fixado, mesmo descendo a pagina*/
+            position: fixed;
+            top: 0px;
+        }
+        #div3 {
+            background-color: cadetblue;
+            margin: 0px 0px;
+            padding: 0px;
+        }
+        #div4 {
+            background-color: yellow;
+            z-index: 1; /* Trazer para frente e para atras*/
+            position: absolute;
+            top: 150px;
+        }
+            #div5 {
+            background-color: brown;
+            margin: 0px;
+            padding: 0px;
+        }
+            #tudo {
+            width: 500px;
+            height: 500px;
+            border: 2px solid black;
+            padding: 0px;
+        }
+        h1 {
+            border: 1px dashed red;
+            margin-left: 100px;
+            padding-left: 500px; /*Altera o tamanho do conteudo em relação a borda do h1*/
+            padding-top: 0px; /*Aumenta o tamanho do conteudo em relação a altura, 
+            padding sozinho altera os 4 lados do conteudo*/
+        }
+    </style>
+</head>
+<body>
+    <div id="tudo">
+        <div id="div1" class="divs">
+
+        </div>
+
+        <div id="div2" class="divs">
+
+        </div>
+
+        <div id="div3" class="divs">
+
+        </div>
+
+        <div id="div4" class="divs">
+
+        </div>
+        <div id="div5" class="divs">
+
+        </div>
+    </div>
+        <h1>Aqui é um cabeçalho</h1>
+
+</body>
+</html>
